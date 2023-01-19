@@ -14,7 +14,7 @@ const getBotResponse = async (clientText) => {
     response.data.choices.forEach(({text}) => {
       botResponse+=text;
     });
-    return `Bot Jorge: \n${botResponse.trim()}`;
+    return `${botResponse.trim()}`;
   }
   catch(e) {
     return `ERROR: ${e.response.data.error.message}`;

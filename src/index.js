@@ -31,7 +31,7 @@ const commands = (client, message) => {
           message.from === process.env.PHONE_NUMBER ? message.to : message.from,
           response,
           imgDescription,
-          imgDescription
+          ''
         )
       })
       break;
