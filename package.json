@@ -1,0 +1,18 @@
+{
+  "name": "gpt-wpp",
+  "version": "1.0.0",
+  "description": "Integração de Whatsapp com ChatGPT",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "venom-bot": "^4.3.7"
+  }
+}
